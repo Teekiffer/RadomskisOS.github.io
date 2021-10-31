@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Einkaufswagen</title>
+
+    <style>
+
+    .page-content{
+        padding: 40px 100px;
+    }
+
+    .zahlungmethoden{
+        padding: 200px 200px 
+        width: 200px
+        bright: 100px
+
+    }
+
+
+    </style>
+
+
+</head>
+<body>
+
+        <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header
+                    mdl-layout--fixed-tabs">
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+            <!-- Title -->
+            <span class="mdl-layout-title">Einkaufswagen</span>
+            </div>
+            <!-- Tabs -->
+            <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+            <a href="#fixed-tab-1" class="mdl-layout__tab is-active">Einkaufswagen</a>
+            <a href="#fixed-tab-2" class="mdl-layout__tab">Adresse</a>
+            <a href="#fixed-tab-3" class="mdl-layout__tab">Zahlung</a>
+            </div>
+        </header>
+        <div class="mdl-layout__drawer">
+            
+            <span class="mdl-layout-title">Zurück zum Shop</span>
+            <!-- Icon button -->
+            <br></br>
+            <a class="mdl-navigation__link" href="RadomskiObstsShop.HTML">Zurück zum Shop
+              <i class="material-icons">remove_shopping_cart</i>
+            </a>
+            <button class="mdl-button mdl-js-button mdl-button--icon">
+              
+            </button>
+
+            <b>Sie sind Stammkunde und haben einen Montlichen Bestellwert über 400€?
+              Dann registrieren sie sich hier Kostenlos zum Fettsack des Jahres und sie bekommen
+              auf ihre Nächstenbestellungen 20 % Rabatt und Versandkosten geschenkt!
+            </b>
+
+            <img src="img/Line.jpg" alt="Fettsack Prime">
+
+        </div>
+        <main class="mdl-layout__content">
+            <section class="mdl-layout__tab-panel is-active" id="fixed-tab-1">
+            <div class="page-content">
+                
+                <b>Ihre Artikel</b>
+
+                <br/br>
+          
+                
+                <!-- Your content goes here --></div>
+            </section>
+            <section class="mdl-layout__tab-panel" id="fixed-tab-2">
+            <div class="page-content">
+                
+                <b>Vor-Nachname</b>
+
+                <form action="#">
+                    <div class="mdl-textfield mdl-js-textfield">
+                      <input class="mdl-textfield__input" type="text" id="sample1">
+                      <label class="mdl-textfield__label" for="sample1">Vorname</label>
+                    </div>
+
+                  </form>
+
+                  <form action="#">
+                    <div class="mdl-textfield mdl-js-textfield">
+                      <input class="mdl-textfield__input" type="text" id="sample1">
+                      <label class="mdl-textfield__label" for="sample1">Nachname</label>
+                    </div>
+                  </form>
+
+                  <br></br>
+
+                  <b>Adresse</b>
+
+                  <form action="#">
+                    <div class="mdl-textfield mdl-js-textfield">
+                      <input class="mdl-textfield__input" type="text" id="sample1">
+                      <label class="mdl-textfield__label" for="sample1">Adresse</label>
+                    </div>
+                  </form>
+
+                  <form action="#">
+                    <div class="mdl-textfield mdl-js-textfield">
+                      <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample2">
+                      <label class="mdl-textfield__label" for="sample2">Zusatzzeile Hausnummer</label>
+                      <span class="mdl-textfield__error">Input is not a number!</span>
+                    </div>
+                  </form>
+
+                  <form action="#">
+                    <div class="mdl-textfield mdl-js-textfield">
+                      <input class="mdl-textfield__input" type="text" id="sample1">
+                      <label class="mdl-textfield__label" for="sample1">Stadt</label>
+                    </div>
+                  </form>
+
+                  <form action="#">
+                    <div class="mdl-textfield mdl-js-textfield">
+                      <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample2">
+                      <label class="mdl-textfield__label" for="sample2">Postleitzahl</label>
+                      <span class="mdl-textfield__error">Input is not a number!</span>
+                    </div>
+                  </form>
+                
+                <!-- Your content goes here --></div>
+            </section>
+            <section class="mdl-layout__tab-panel" id="fixed-tab-3">
+            <div class="page-content">
+                
+                <b>Zahlungsarten</b>
+
+              <div class Zahlungsmethoden> 
+                <img src="img/Zahlungsmethoden.png" alt="Zahlungsmethoden">
+               </section>
+
+                <script>
+                    
+                </script>
+
+                <!-- Your content goes here --></div>
+            </section>
+        </main>
+
+
+
+    </div>
+
+
+    
+</body>
+</html>

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radomski´s Obst Express</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+    <style>
+        
+        .demo-layout-transparent .mdl-layout__header,
+        .demo-layout-transparent .mdl-layout__drawer-button {
+          /* This background is dark, so we set text to white. Use 87% black instead if
+             your background is light. */
+          color: white;
+        }
+
+
+           
+
+        .photo-01  {
+          padding: 50px 100px;
+        }
+
+        .demo-card-wide.mdl-card {
+          width: 512px;
+        }
+        .demo-card-wide > .mdl-card__title {
+          color:bisque;
+          height: 176px;
+          background:  center / cover;
+        
+        }
+        .demo-card-wide > .mdl-card__menu {
+          color: lightblue;
+        }
+
+        .page-content{
+          padding: 40px 100px;
+        }
+
+        .demo-card{
+          padding: 100px 300px;
+        }
+
+        .demo-card-wide > .mdl-card__title {
+            color:rgb(6, 31, 253);
+            height: 176px;
+            background: url('img/background.jpg') center / cover; 
+          }
+            
+      
+
+     </style>
+
+
+
+
+     <script>
+      
+
+        function loadImage(){
+                backgroundImage.src = `img/background.png`
+                Orange.img = new Image();
+                Orange.img.src = Orange.src;
+
+                Banane.img = new Image();
+                Banane.src = Banane.src;
+
+                Apfel.img = new Image();
+                Apfel.src = Apfel.src;
+
+                Birne.img = new Image();
+                Birne.src = Birne.src;
+
+            }
+
+        function Hinzufügen(){
+          
+        }
+
+     </script>
+
+</head>
+<body>
+
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row">
+        <!-- Title -->
+        <span class="mdl-layout-title">Radomski´s Obst Express</span>
+        <!-- Add spacer, to align navigation to the right -->
+        <div class="mdl-layout-spacer"></div>
+        <!-- Navigation. We hide it in small screens. -->
+        <nav class="mdl-navigation mdl-layout--large-screen-only">
+          <a class="mdl-navigation__link" href="Orange.Html">Orangen</a>
+          <a class="mdl-navigation__link" href="">Bananen</a>
+          <a class="mdl-navigation__link" href="">Äpfeln</a>
+          <a class="mdl-navigation__link" href="">Birnen</a>
+          <a class="mdl-navigation__link" href="Einkaufswagen.HTML">Einkaufswagen</a>
+        
+            <a href="Einkaufswagen.HTML">
+              <div class="material-icons mdl-badge mdl-badge--overlap" data-badge="1">shopping_cart </div>
+            </a>
+          
+        </nav>
+      </div>
+    </header>
+    <div class="mdl-layout__drawer">
+      <span class="mdl-layout-title">Radomski´s Obst Express</span>
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="">Orangen</a>
+        <a class="mdl-navigation__link" href="">Bananen</a>
+        <a class="mdl-navigation__link" href="">Äpfeln</a>
+        <a class="mdl-navigation__link" href="">Birnen</a>
+      </nav>
+    </div>
+    <main class="mdl-layout__content">
+      <div class="page-content">
+        
+        <class=photo-01> 
+
+          <img src= "img/orange.jpg" alt="Bild einer Orange"
+          x= 500
+          y= 100
+          width="200"
+          height="200">
+          <br></br>
+       
+          <b>Orangener als die Augen einer Kolombianischen Nutte, Qualität wird hier groß geschrieben</b>
+          <br></br>
+
+          <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+            1,59€
+          </button>
+          <br></br>
+
+        </class>
+
+        <hr width="50%" align="center"> 
+
+        <class=photo-02>
+       
+          <img src= "img/banane.jpg" alt="Bild einer Banane"
+          x= 800
+          y= 100
+          width="200"
+          height="200">
+          <br></br>
+
+          <b>Feinste 30cm</b>
+          <br></br>
+
+          <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+            1,20€
+          </button>
+          <br></br>
+
+        </class>
+
+        <hr width="50%" align="center"> 
+
+
+        <class-photo-03>
+
+          <img src= "img/apfel.jpg" alt="Bild einer Banane"
+          x= 800
+          y= 100
+          width="200"
+          height="200">
+          <br></br>
+
+          <b>Liegt in der Hand wie eine Granate, oder pralle Balls</b>
+          <br></br>
+
+          <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+            2,20€
+          </button>
+          <br></br>
+
+        </class>
+
+        <hr width="50%" align="center"> 
+
+        <class-photo-04>
+       
+          <img src= "img/birne.jpg" alt="Bild einer Birne"
+          x= 800
+          y= 100
+          width="200"
+          height="200">
+          <br></br>
+
+          <b>Liegt in der Hand wie ein Molatov-Cocktail</b>
+          <br></br>
+       
+         <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+           2,40€
+         </button>
+         <br></br>
+
+        </class>
+
+        <span class="mdl-chip mdl-chip--contact mdl-chip--deletable">
+          <img class="mdl-chip__contact" src="img/WalterWhite.png"></img>
+          <span class="mdl-chip__text">Fragen sie ihren Lokalen Obst-Dealer</span>
+          <a href="#" class="mdl-chip__action"><i class="material-icons">cancel</i></a>
+      </span>
+      
+    
+      
+      
+      <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+        <div class="mdl-card__title">
+          <h2 class="mdl-card__title-text">Willkommen bei Radomski´s Obst Express</h2>
+        </div>
+        <div class="mdl-card__supporting-text">
+          Sie brauchen frischen Obst, im gramm Preis per Taxi Lieferung?
+          Dann sind sie genau perfekt bei uns, wir liefern zuverlässig und schnell.
+        </div>
+        <div class="mdl-card__actions mdl-card--border">
+          <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+            Gib mir den Shit
+          </a>
+        </div>
+        <div class="mdl-card__menu">
+          <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+            <i class="material-icons">share</i>
+          </button>
+        </div>
+      </div>
+      
+
+      </div>
+    </main>
+  </div>
+
+
+</body>
+</html>
